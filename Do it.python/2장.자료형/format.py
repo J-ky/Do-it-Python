@@ -4,6 +4,7 @@ a='I eate %d apples.'%3
 print(a)
 
 b='I eate %s apples.' %'Three'
+#                                       (string을 사용할 때는 항상 '를 붙여 주어야 한다.)
 print(b)
 
 c='I ate {0}apples. so I was sick for {day} days.' .format('five',day=3)
